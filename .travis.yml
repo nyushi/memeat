@@ -12,7 +12,7 @@ deploy:
     secure: orFZEJlF3k88fOvy3FECpSkzRx3ZcbTQmPwNexrUHXoWyocuXGxPsmrIgV9l0U3nE3wroVfcYi3sA8yIVg/otjB7eGPrPHb8jJU1A2uiDnmsEKK3nEkwQQChz3RCv0enQy8OQlSRDOZ9DjUrv97SFGibFGc9G73NhZBLUONyCQKS/e8dhNbM2q7wu3s5TQJjk70WwEhCeF2IKqKMXe97mHCtq4Sr9vuwEjbC5Z5DOK6IYXzPAZ+GZD3qOzxYja5NxFip3m9Me6qZPMn+P4EHd3rvsYt4LdK0o2APhgD2xrKoP08K0Ev7l3N8OXFPImGmDTebsR+3H9doNMcUqpM8LwWE7Bvz5wUxrNQ4buow9xItm8a+bIQ3HChGRKwEUoHDv0jFpEwDIRtMeHvOrUyq4HDF0EzIDj4yw0fZkC4v/7XALpjbvbnjE2o1ufVntcfcN28MnStFN+sDn/nWQgm1yIlgx+oO0H/yb89Uy/D/P/l/Qbg+DB1wjBWsDWuke7rET78zFOFeYJmlzR6De6FWdeNxVFAI7MLHGErLrQdNJQh0Ll9iG5HxOLrz1mh91rkxMIBhhADuF1HFNAVuXymzj8gjN1kr3NoCbU/NaRpEqZxnHF2P5lyQbGxgAHp6qouigXkzJJ9blJO1AkVDOHZetWz3/ISDRs2JKsQb9Gq7B5k=
   skip_cleanup: true
   file_glob: true
-  file: *.zip
+  file: "*.zip"
   on:
     repo: nyushi/memeat
     tags: true
