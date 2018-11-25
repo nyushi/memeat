@@ -1,5 +1,20 @@
 # memeat
 
-Use 10M ram and sleep.
+Memory test tool that only memory allocation.
 
-`$ eatmem 10` 
+
+# Compile
+
+```
+$ gcc main.c -o memeat
+```
+
+# Usage
+
+ex) Use 10M ram and sleep.
+
+```
+$ ./memeat 10
+```
+
+[Download](https://github.com/nyushi/memeat/releases)
