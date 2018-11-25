@@ -1,11 +1,11 @@
 language: c
-script: gcc main.c -o memeat
+script: make memeat
 matrix:
   include:
   - os: linux
   - os: osx
 before_deploy:
-  - zip memeat_$(uname -s)_$(uname -m).zip memeat
+  - make zip
 deploy:
   provider: releases
   api_key:
